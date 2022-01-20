@@ -15,7 +15,12 @@ then
    git pull
    jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 workflow_example.ipynb
    echo waiting 30 seconds not to update github too fast
-   sleep 60
+   sleep 3
+   echo 3
+   sleep 3
+   echo 2
+   sleep 3
+   echo 1
    echo
    echo "updating git now"
    echo
